@@ -1577,12 +1577,12 @@
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #000;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: #000;
+				color: #d70;
 			}
 
 		.wrapper.style3 {
