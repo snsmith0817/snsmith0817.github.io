@@ -1288,6 +1288,7 @@
 
 		header.style1 h2 {
 			font-weight: 700;
+            color: #f70;
 		}
 
 		header.style1 p {
@@ -1368,8 +1369,8 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #fff;
+			background: #f70 url("images/overlay.png");
+			color: #222;
 		}
 
 			input[type="button"].style1:hover,
@@ -1377,7 +1378,7 @@
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #ed0;
 			}
 
 			input[type="button"].style1:active,
@@ -1385,7 +1386,7 @@
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #cb0;
 			}
 
 		input[type="button"].style2,
@@ -1562,27 +1563,27 @@
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			background: #cb0 url("images/overlay.png");
+			color: #dc0;
+			color: rgba(10, 10, 10, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
-				color: #fff;
+				background: #cb0 url("images/overlay.png");
+				color: #222;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #fff;
+				color: #222;
 			}
 
 		.wrapper.style2 {
-			background: #000;
+			background: #252525 url("images/overlay.png");
 		}
 
 			.wrapper.style2 .title {
-				background: #000;
-				color: #d70;
+				background: #252525 url("images/overlay.png");
+				color: #f70;
 			}
 
 		.wrapper.style3 {
