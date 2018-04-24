@@ -71,6 +71,14 @@
     </div>
 </div>
 
+<configuration>
+    <system.web>
+        <customErrors defaultRedirect="default.aspx" mode="On">
+            <error statusCode="404" redirect="default.aspx"/>
+        </customErrors>
+    </system.web>
+</configuration>
+
 <!-- Scripts -->
 
 <script src="assets/js/jquery.min.js"></script>
