@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /github.com/snsmith0817/snsmith0817.github.io/html/assets/.passwd
-require valid-user
