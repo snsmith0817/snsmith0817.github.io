@@ -193,9 +193,8 @@ span.psw {
 	    for (var i = 0; i < user_input.length; i++) {
             redirectURL += user_input.charCodeAt(i);
         }
-		alert(redirectURL);
-		<!-- event.preventDefault() -->
-		<!-- window.location.replace(redirectUrl); -->
+		event.preventDefault()
+		window.location.replace(redirectURL);
 	}
 </script>
 
