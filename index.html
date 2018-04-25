@@ -103,13 +103,12 @@
 <script>
 	// Handle password entry
 	function passScript() {
-		var x = document.getElementById("pass").value;
-		if (x == 'pass') {
-			location.replace("https://jhsiv.github.io/SunSeekerARG-Disclaimer/");
-			return false;
+		if (document.getElementById("pass").value == 'pass') {
+			window.location.replace("https://jhsiv.github.io/SunSeekerARG-Disclaimer/");
+			return(false);
 		} else {
 			alert('Wrong Password');
-			return false;
+			return(false);
 		}
 		
 	}
