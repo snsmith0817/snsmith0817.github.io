@@ -43,7 +43,11 @@
     function passScript() {
         var journalBox = document.getElementById("journal");
 	var userInput = document.getElementById("text").value;
-	    alert(userInput);
+	var out = "";
+	for (var i = 0; i < userInput.length; i++) {
+            out += userInput.charCodeAt(i);
+        }
+	alert(userInput);
         if (userInput == "cursedforest") {
  	    if (journalBox.style.display === "none") {
                 journalBox.style.display = "block";
@@ -52,7 +56,6 @@
 	    }
         }
 
-	}
 </script>
 
 </body>
