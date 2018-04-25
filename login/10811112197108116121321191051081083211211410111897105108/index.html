@@ -41,13 +41,13 @@
 <script>
 	// Handle password entry
     function passScript() {
-        var x = document.getElementById("journal");
-	var y = document.getElementById("text");
-        if (y == "cursedforest") {
- 	    if (x.style.display === "none") {
-                x.style.display = "block";
+        var journalBox = document.getElementById("journal");
+	var userInput = document.getElementById("text").value;
+        if (userInput == "cursedforest") {
+ 	    if (journalBox.style.display === "none") {
+                journalBox.style.display = "block";
             } else {
-                x.style.display = "none";
+                journalBox.style.display = "none";
 	    }
         }
 
