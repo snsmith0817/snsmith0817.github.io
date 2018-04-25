@@ -17,7 +17,7 @@
 		
            alert(url);
 		
-	   if (url.length >= loginUrl.length && url.substring(0, loginUrl.length).equals(loginUrl)) {
+	   if (url.length >= loginUrl.length && url.substring(0, loginUrl.length) == loginUrl) {
 		   alert("Incorrect password!");
 	           destination = destination.concat("#login");
 	   }
