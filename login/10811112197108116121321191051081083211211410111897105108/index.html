@@ -40,13 +40,16 @@
 
 <script>
 	// Handle password entry
-	function passScript() {
-	  var x = document.getElementById("journal");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+    function passScript() {
+        var x = document.getElementById("journal");
+	var y = document.getElementById("cursedforest")
+        if (y == "cursedforest") {
+ 	    if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+	    }
+        }
 
 	}
 </script>
