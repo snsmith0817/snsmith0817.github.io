@@ -5,12 +5,20 @@
     <!-- <meta http-equiv="refresh" content="0; url=http://www.veritassolaris.com/" /> -->
     <title>404 - File Not Found</title>
 </head>
-<body onload="test()">
-</body>
+<body onload="redirect()" />
 </html>
 
 <script>
-	function test() {
-	   alert(window.location.href);
+	function redirect() {
+	   var url = window.location.href;
+	   var loginUrl = "http://veritassolaris.com/login/";
+	   var destination = "http://vertiassolaris.com/";
+           
+	   if (url.length >= loginUrl.length && url.substring(0, loginUrl.length).equals(loginUrl)) {
+		   alert("Incorrect password!");
+	           destination = destination.concat("#login");
+	   }
+	
+	  window.location.replace(destination);
 	}
 </script>
