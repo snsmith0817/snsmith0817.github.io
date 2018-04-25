@@ -2929,11 +2929,11 @@ input[type=text], input[type=password] {
 button {
     background-color: #ef902a;
     color: #222;
-    padding: 15px 20px;
+    padding: 0px 0px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: auto;
 }
 
 button:hover {
