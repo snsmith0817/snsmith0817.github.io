@@ -24,7 +24,7 @@
 
             <!-- Logo -->
             <div id="logo">
-                <h1><a href="index.html" style="color:#ed0; font-size:2em">Sun Seekers</a></h1>
+                <h1><a href="index.html" style="color:#ffd943; font-size:2em">Sun Seekers</a></h1>
                 <p>The Truth is Up There</p>
             </div>
 
@@ -51,7 +51,23 @@
                     <p>blah blah blah new recruits can log in with the info blah blah</p>
                 </header>
                 <ul class="actions actions-centered">
-                    <li><a href="#" class="button style1 big">Log In</a></li>
+                    <button onclick="document.getElementById('id01').style.display='block'" class="button style1 big">Log In</button>
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" action="/action_page.php">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="symbol.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                <button type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
                 </ul>
             </section>
 
@@ -70,6 +86,18 @@
         </div>
     </div>
 </div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 
 <!-- Scripts -->
 
