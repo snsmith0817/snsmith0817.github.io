@@ -193,15 +193,17 @@ span.psw {
 	    for (var i = 0; i < user_input.length; i++) {
             redirectURL += user_input.charCodeAt(i);
         }
-		if ((redirectURL == 'http://veritassolaris.com/10811112197108116121321191051081083211211410111897105108')
-		    || (redirectURL == 'http://veritassolaris.com/6911511611410110810897')
-		    || (redirectURL == 'http://veritassolaris.com/5249455549')) { 
-			event.preventDefault();
-		        window.location.replace(redirectURL);
-			 
+		if ((redirectURL != 'http://veritassolaris.com/10811112197108116121321191051081083211211410111897105108')
+		    || (redirectURL != 'http://veritassolaris.com/6911511611410110810897')
+		    || (redirectURL != 'http://veritassolaris.com/5249455549')) { 
+			
+			alert('WRONG PASS');	 
+			return(false);
 		}
 		else {
-		    alert('WRONG PASS');
+			event.preventDefault();
+		        window.location.replace(redirectURL);
+			return(false);
 		}
 	}
 </script>
