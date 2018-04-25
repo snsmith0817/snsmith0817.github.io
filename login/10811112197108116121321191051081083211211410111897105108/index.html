@@ -27,7 +27,7 @@
     <div id = "#info1" class = "info1">
       <h2>Confessions</h2>
       <input type="text" id="pass" required>
-      <button type="submit" onclick="passScript()">Submit</button>
+      <button id="text" type="submit" onclick="passScript()">Submit</button>
     </div>
     <div id = "journal" class = "info2">
       <p>[journal stuff here]</p>
@@ -42,7 +42,7 @@
 	// Handle password entry
     function passScript() {
         var x = document.getElementById("journal");
-	var y = document.getElementById("cursedforest")
+	var y = document.getElementById("text")
         if (y == "cursedforest") {
  	    if (x.style.display === "none") {
                 x.style.display = "block";
