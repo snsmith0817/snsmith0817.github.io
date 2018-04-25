@@ -48,12 +48,13 @@
             out += userInput.charCodeAt(i);
         }
         if (out == "99117114115101100102111114101115116") {
- 	    if (journalBox.style.display === "none") {
-                journalBox.style.display = "block";
-            } else {
+ 	    if (journalBox.style.display === "block") {
                 journalBox.style.display = "none";
+            } else {
+                journalBox.style.display = "block";
 	    }
         }
+	document.getElementById("text").value = "";
     }
 
 </script>
