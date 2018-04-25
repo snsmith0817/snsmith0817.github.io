@@ -12,7 +12,7 @@
 	function redirect() {
 	   var url = window.location.href;
 	   var loginUrl = "http://veritassolaris.com/login/";
-	   var destination = "";
+	   var destination = "http://veritassolaris.com/";
            
 		
            alert(url);
@@ -22,6 +22,6 @@
 	           destination = destination.concat("#login");
 	   }
 	
-	  window.location.href = destination;
+	  window.location.assign(destination);
 	}
 </script>
