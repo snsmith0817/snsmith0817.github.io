@@ -104,6 +104,7 @@
 	// Handle password entry
 	function passScript() {
 		if (document.getElementById("pass").value == 'pass') {
+			event.preventDefault()
 			window.location.replace("https://jhsiv.github.io/SunSeekerARG-Disclaimer/");
 			return(false);
 		} else {
