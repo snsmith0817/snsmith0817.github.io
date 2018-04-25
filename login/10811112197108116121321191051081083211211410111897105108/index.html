@@ -27,15 +27,30 @@
     <div id = "#info1" class = "info1">
       <h2>Confessions</h2>
       <input type="text" id="pass" required>
-      <button type="submit">Submit</button>
+      <button type="submit" onclick="passScript()">Submit</button>
     </div>
-    <div id = "#info2" class = "info2">
+    <div id = "journal">
       <h2>Title 2</h2>
       <p>Text 2</p>
+    </div>
     <div id = "#info3" class = "info3">
       <h2>Title 3</h2>
       <p>Text 3</p>
     </div>
   </div>
+
+<script>
+	// Handle password entry
+	function passScript() {
+	  var x = document.getElementById("journal");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+	}
+</script>
+
 </body>
 </html>
