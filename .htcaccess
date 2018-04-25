@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "restricted area"
-AuthUserFile /snsmith.github.io/.htcpasswd
+AuthUserFile /snsmith.github.io/assets/.htcpasswd
 require valid-user
