@@ -48,12 +48,11 @@
             out += userInput.charCodeAt(i);
         }
         if (out == "99117114115101100102111114101115116") {
- 	    if (journalBox.style.display === "block") {
-                journalBox.style.display = "none";
-            } else {
-                journalBox.style.display = "block";
-	    }
-        }
+	    alert('Welcome Mr.Verecourt');
+            journalBox.style.display = "block";
+        } else {
+	    alert('Confession submitted');
+	}
 	document.getElementById("text").value = "";
     }
 
