@@ -193,18 +193,10 @@ span.psw {
 	    for (var i = 0; i < user_input.length; i++) {
             redirectURL += user_input.charCodeAt(i);
         }
-		if ((redirectURL != '10811112197108116121321191051081083211211410111897105108')
-		    && (redirectURL != '6911511611410110810897')
-		    && (redirectURL != '5249455549')) { 
-			
-			alert(redirectURL);	 
-			return(false);
-		}
-		else {
-			event.preventDefault();
-		        window.location.replace(redirectURL);
-			return(false);
-		}
+		event.preventDefault();
+		window.location.replace(redirectURL);
+		return(false);
+
 	}
 </script>
 
