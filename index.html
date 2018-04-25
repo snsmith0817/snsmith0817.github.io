@@ -62,9 +62,9 @@
 
                             <div class="container">
                                 <label for="psw"><b>Password</b></label>
-                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                <input type="password" placeholder="Enter Password" id="psw" required>
 
-                                <button type="submit">Login</button>
+                                <button type="submit" onclick="passScript()">Login</button>
                             </div>
                         </form>
                     </div>
@@ -98,6 +98,19 @@
             modal.style.display = "none";
         }
     }
+</script>
+	
+<script>
+	// Handle password entry
+	function passScript() {
+	    var x = document.getElementById("myPsw").value;
+	    if (x == 'pass') {
+			location.href = "http://google.com";
+		} else {
+			alert('Wrong Password');
+			return false;
+		}
+	}
 </script>
 
 <!-- Scripts -->
