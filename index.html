@@ -62,7 +62,7 @@
 
                             <div class="container">
                                 <label for="psw"><b>Password</b></label>
-                                <input type="password" placeholder="Enter Password" id="psw" required>
+                                <input type="password" id="pass" placeholder="Enter Password" required>
 
                                 <button type="submit" onclick="passScript()">Login</button>
                             </div>
@@ -103,7 +103,7 @@
 <script>
 	// Handle password entry
 	function passScript() {
-	    var x = document.getElementById("myPsw").value;
+	    var x = document.getElementById("pass").value;
 	    if (x == 'pass') {
 			location.href = "https://jhsiv.github.io/SunSeekerARG-Disclaimer/";
 		} else {
