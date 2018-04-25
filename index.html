@@ -188,16 +188,13 @@ span.psw {
 <script>
 	// Handle password entry
 	function passScript() {
-		if (document.getElementById("pass").value == 'pass') {
-			event.preventDefault()
-			window.location.replace("https://jhsiv.github.io/SunSeekerARG-Disclaimer/");
-			return(false);
-		} else {
-			event.preventDefault()
-			alert('Incorrect Password');
-			return(false);
-		}
-		
+	    var user_input = document.getElementById("pass").value;
+	    var redirectUrl = "veritassolaris.com/login/";
+	    for (var i = 0; i < user_input.length; i++) {
+            redirectUrl += user_input.charCodeAt(i);
+        }
+		event.preventDefault()
+		window.location.replace(redirectUrl);
 	}
 </script>
 
