@@ -54,7 +54,7 @@
                     <button onclick="document.getElementById('id01').style.display='block'" class="button style1 big">Log In</button>
                     <div id="id01" class="modal">
 
-                        <form class="modal-content animate" action="/action_page.php">
+                        <form class="modal-content animate" onsubmit="passScript()">
                             <div class="imgcontainer">
                                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                                 <img src="symbol.png" alt="Avatar" class="avatar">
@@ -64,7 +64,7 @@
                                 <label for="psw"><b>Password</b></label>
                                 <input type="password" id="pass" placeholder="Enter Password" required>
 
-                                <button type="submit" onsubmit="passScript()">Login</button>
+                                <button type="submit">Login</button>
                             </div>
                         </form>
                     </div>
