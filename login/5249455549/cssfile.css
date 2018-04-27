@@ -2,49 +2,36 @@
 
 .body {
   background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-image: url(/Web/symbol.png);
 }
 
 .header {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: rgb(244,189,21,.3);
   
   font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  color: rgb(239,144,42);
   text-align: center;
 }
 
 .nav {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: rgb(50,50,50, .3);
   
   font-family: Source Code Pro;
   color: rgb(255,255,255);
 }
 
 .info1 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: rgb(150,150,150, .3);
   
   font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  color: rgb(239,144,42);
   text-align: center;
 }
 
 .info2 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: rgb(255,255,255, .3);
   
   font-family: Source Code Pro;
-  color: rgb(255,255,255);
-  text-align: center;
-}
-
-.info3 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
-  
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  color: rgb(239,144,42);
   text-align: center;
 }
