@@ -1,50 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 .body {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ef902a;
 }
 
 .header {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #f4bd15;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Crimson Text;
+  color: #ffffff;
   text-align: center;
 }
 
 .nav {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffffff;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Crimson Text;
+  color: #000000;
 }
 
 .info1 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Crimson Text;
+  color: #000000;
   text-align: center;
 }
 
 .info2 {
-  background-color: rgb(0,0,0);
+  background-color: #ffffff;
   //background-image: url("");
   display:none;
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
-  text-align: center;
+  font-family: Cedarville Cursive;
+  color: #000000;
+  text-align: left;
 }
 
 .info3 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Crimson Text;
+  color: #000000;
   text-align: center;
 }
