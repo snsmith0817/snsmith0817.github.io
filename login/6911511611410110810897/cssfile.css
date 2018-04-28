@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 
 .body {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #f4bd15;
 }
 
 .header {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Tangerine;
+  color: rgb(0,0,0);
   text-align: center;
 }
 
@@ -18,34 +16,31 @@
   background-color: rgb(0,0,0);
   //background-image: url("");
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Tangerine;
+  color: rgb(0,0,0);
 }
 
 .info1 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Tangerine;
+  color: rgb(0,0,0);
   text-align: center;
 }
 
 .info2 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Tangerine;
+  color: rgb(0,0,0);
   text-align: center;
 }
 
 .info3 {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffd943;
   
-  font-family: Source Code Pro;
-  color: rgb(255,255,255);
+  font-family: Tangerine;
+  color: rgb(0,0,0);
   text-align: center;
 }
 
