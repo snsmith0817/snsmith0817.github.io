@@ -8,15 +8,16 @@
   background-color: #ffd943;
   
   font-family: Tangerine;
+  font-size: x-large;
   color: rgb(0,0,0);
   text-align: center;
 }
 
 .nav {
-  background-color: rgb(0,0,0);
-  //background-image: url("");
+  background-color: #ffffff;
   
   font-family: Tangerine;
+  font-size: x-large;
   color: rgb(0,0,0);
 }
 
@@ -24,6 +25,7 @@
   background-color: #ffd943;
   
   font-family: Tangerine;
+  font-size: x-large;
   color: rgb(0,0,0);
   text-align: center;
 }
@@ -32,6 +34,7 @@
   background-color: #ffd943;
   
   font-family: Tangerine;
+  font-size: x-large;
   color: rgb(0,0,0);
   text-align: center;
 }
@@ -40,6 +43,7 @@
   background-color: #ffd943;
   
   font-family: Tangerine;
+  font-size: x-large;
   color: rgb(0,0,0);
   text-align: center;
 }
