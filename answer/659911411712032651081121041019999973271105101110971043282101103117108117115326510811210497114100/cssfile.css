@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+.body {
+  background-color: #000;
+  //background-image: url(symbol.png);
+}
+
+.header {
+  background: radial-gradient(#950 15%, #000 80%, #000 5%);
+  
+  font-family: Archivo;
+  color: #ffd943;
+  text-align: center;
+  text-shadow: 0px 0px 20px #fff, 0px 0px 10px #ef902a;
+}
+
+.nav {
+  font-family: Archivo;
+  color: #fff
+}
+
+.info1 {
+  background: radial-gradient(#888 10%, #000 80%, #000 5%);
+  
+  font-family: Archivo;
+  font-size: 16pt;
+  color: #ef902a;
+  text-align: center;
+  text-shadow: 0px 0px 5px #000;
+  margin: 0px 300px 0px 300px;
+}
