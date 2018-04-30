@@ -12,11 +12,17 @@
 	function redirect() {
 	   var url = window.location.href;
 	   var loginUrl = "http://veritassolaris.com/login/";
+	   var answerUrl = "http://veritassolaris.com/answer/";
 	   var destination = "http://veritassolaris.com/";
 		
 	   if (url.length >= loginUrl.length && url.substring(0, loginUrl.length) == loginUrl) {
 		   alert("Incorrect password!"); 
 	           destination = destination.concat("#login");
+	   }
+	   else if (url.length >= answerUrl.length && url.substring(0, loginUrl.length) == answerUrl) {
+		   alert("Incorrect!");
+		   window.history.back();
+		   return;
 	   }
 	
 	  window.location.replace(destination);
