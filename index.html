@@ -120,7 +120,63 @@ span.psw {
 
             <!-- Logo -->
             <div id="logo">
-                <h1><a href="index.html" style="color:#ffd943; font-size:2em">The Sun Seekers</a></h1>
+                <h1>
+                    <!-- Display the countdown timer in an element -->
+
+                    <!--
+
+                    <a id="timer" style="color:#ef902a; font-size: 3em; text-shadow: 0 0 10px #000"></a>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate = new Date("Apr 30, 2018 19:00:00").getTime();
+
+                        // Update the count down every 9ms seconds
+                        var x = setInterval(function() {
+
+                            // Get today's date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now an the count down date
+                            var distance = countDownDate - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = (Math.floor((distance % (1000 * 60)) / 1000)).toString();
+                            var millis = ((distance % (1000 * 60)) % 1000).toString();
+
+                            if (minutes.length === 1) {
+                                minutes = "0" + minutes;
+                            }
+
+                            if (seconds.length === 1) {
+                                seconds = "0" + seconds;
+                            }
+
+                            var millisLength = millis.length;
+                            for (var i = 0; i < 3 - millisLength; i++) {
+                                millis = "0" + millis;
+                            }
+
+                            // Display the result in the element with id="timer"
+                            document.getElementById("timer").innerHTML = hours + ":"
+                                + minutes + ":" + seconds + "." + millis;
+
+                            // If the count down is finished, write some text
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("timer").innerHTML = "EXPIRED";
+                            }
+                        }, 9);
+                    </script>
+                    <br/><br/><br/>
+
+                    -->
+
+                    <a href="index.html" style="color:#ffd943; font-size:2em">The Sun Seekers</a>
+                </h1>
                 <p>The Truth is Up There</p>
             </div>
 
