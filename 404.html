@@ -19,7 +19,7 @@
 		   alert("Incorrect password!"); 
 	           destination = destination.concat("#login");
 	   }
-	   else if (url.length >= answerUrl.length && url.substring(0, loginUrl.length) == answerUrl) {
+	   else if (url.length >= answerUrl.length && url.substring(0, answerUrl.length) == answerUrl) {
 		   alert("Incorrect!");
 		   window.history.back();
 		   return;
