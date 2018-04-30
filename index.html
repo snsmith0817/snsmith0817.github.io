@@ -7,14 +7,6 @@
 <html>
 <head>
 	
-    <?php 
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-        $ip=$_SERVER['HTTP_CLIENT_IP'];}
-        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-        $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];} else {
-        $ip=$_SERVER['REMOTE_ADDR'];}
-    ?>
-	
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118366981-1"></script>
     <script>
@@ -234,10 +226,6 @@ span.psw {
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
-
-<script type='text/javascript'>
-    _gaq.push(['_setCustomVar', 1, 'IP', '<?=$ip;?>', 1]);
-</script> 
 
 </body>
 </html>
