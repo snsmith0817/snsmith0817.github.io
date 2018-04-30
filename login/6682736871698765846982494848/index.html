@@ -54,8 +54,8 @@
   function submitAnswer() {
     	var userInput = document.getElementById("answerbox").value;
     	var redirectURL = "answer/";
-	for (var i = 0; i < user_input.length; i++) {
-          	redirectURL += user_input.charCodeAt(i);
+	for (var i = 0; i < userInput.length; i++) {
+          	redirectURL += userInput.charCodeAt(i);
        	}
 	event.preventDefault();
 	alert(redirectURL);
