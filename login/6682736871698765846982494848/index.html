@@ -44,24 +44,24 @@
 
   </div>
   <div>
-      <input type="text" id="text" required>
-      <button type="submit" onclick="passScript()">Submit</button>
+      <input type="text" id="answerbox" required>
+      <button type="submit" onclick="submitAnswer()">Submit</button>
   </div>
 <script>
   function goBack() {
     window.history.back();
   }
   function submitAnswer() {
-    var userInput = document.getElementById("text").value;
-	  var redirectURL = "answer/";
-	    for (var i = 0; i < user_input.length; i++) {
-            redirectURL += user_input.charCodeAt(i);
-       }
-		event.preventDefault();
-	  	alert(redirectURL);
-		window.location.assign(redirectURL);
-		return(false);
-	}
+    	var userInput = document.getElementById("answerbox").value;
+    	var redirectURL = "answer/";
+	for (var i = 0; i < user_input.length; i++) {
+          	redirectURL += user_input.charCodeAt(i);
+       	}
+	event.preventDefault();
+	alert(redirectURL);
+	window.location.assign(redirectURL);
+	return(false);
+   }
 </script>
 </body>
 </html>
