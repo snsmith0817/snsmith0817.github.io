@@ -14,7 +14,8 @@
 	   var loginUrl = "http://veritassolaris.com/login/";
 	   var answerUrl = "http://veritassolaris.com/answer/";
 	   var destination = "http://veritassolaris.com/";
-		
+	
+		alert(url);
 	   if (url.length >= loginUrl.length && url.substring(0, loginUrl.length) == loginUrl) {
 		   alert("Incorrect password!"); 
 	           destination = destination.concat("#login");
